@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="ie.gmit.EmployeeTest" time="0.003" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="ie.gmit.EmployeeTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2020.2.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,11 +64,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ie.gmit.EmployeeTest" name="ie.gmit.EmployeeTest.testConstructorAgeFail" time="0.002"/>
-  <testcase classname="ie.gmit.EmployeeTest" name="ie.gmit.EmployeeTest.testConstructorEmploymentFail" time="0"/>
   <testcase classname="ie.gmit.EmployeeTest" name="ie.gmit.EmployeeTest.testEmployeeCreateSuccess" time="0"/>
-  <testcase classname="ie.gmit.EmployeeTest" name="ie.gmit.EmployeeTest.testConstructorNameFail" time="0"/>
-  <testcase classname="ie.gmit.EmployeeTest" name="ie.gmit.EmployeeTest.testConstructorPhoneFail" time="0"/>
   <testcase classname="ie.gmit.EmployeeTest" name="ie.gmit.EmployeeTest.testConstructorTitleFail" time="0"/>
-  <testcase classname="ie.gmit.EmployeeTest" name="ie.gmit.EmployeeTest.testConstructorIDFail" time="0.001"/>
+  <testcase classname="ie.gmit.EmployeeTest" name="ie.gmit.EmployeeTest.testConstructorIDFail" time="0"/>
+  <testcase classname="ie.gmit.EmployeeTest" name="ie.gmit.EmployeeTest.testConstructorPhoneFail" time="0"/>
+  <testcase classname="ie.gmit.EmployeeTest" name="ie.gmit.EmployeeTest.testConstructorNameFail" time="0"/>
+  <testcase classname="ie.gmit.EmployeeTest" name="ie.gmit.EmployeeTest.testConstructorEmploymentFail" time="0"/>
+  <testcase classname="ie.gmit.EmployeeTest" name="ie.gmit.EmployeeTest.testConstructorAgeFail" time="0"/>
 </testsuite>

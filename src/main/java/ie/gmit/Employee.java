@@ -19,11 +19,6 @@ public class Employee {
     }
 
 
-
-    public String getTitle() {
-        return title;
-    }
-
     public void setTitle(String title) {
         if ((title == "Mr") || (title == "Miss") || (title == "Mrs")) {
             this.title = title;
@@ -33,9 +28,6 @@ public class Employee {
         }
     }
 
-    public String getName() {
-        return name;
-    }
 
     public void setName(String name) {
         if ((name.length()>=5)&&(name.length()<=22)) {
@@ -44,10 +36,6 @@ public class Employee {
         else {
             throw new IllegalArgumentException("Invalid name");
         }
-    }
-
-    public String getID() {
-        return ID;
     }
 
     public void setID(String ID) {
@@ -59,10 +47,6 @@ public class Employee {
         }
     }
 
-    public int getPhone() {
-        return phone;
-    }
-
     public void setPhone(int phone) {
         if ((phone>=1000000)&&(phone<=9999999)) {
             this.phone = phone;
@@ -70,10 +54,6 @@ public class Employee {
         else {
             throw new IllegalArgumentException("Invalid phone number");
         }
-    }
-
-    public String getEmployment() {
-        return employment;
     }
 
     public void setEmployment(String employment) {
@@ -84,11 +64,6 @@ public class Employee {
             throw new IllegalArgumentException("Invalid employment type");
         }
     }
-
-    public int getAge() {
-        return age;
-    }
-
 
     public void setAge(int age) {
         if (age>=18) {
